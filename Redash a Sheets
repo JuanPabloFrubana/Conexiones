@@ -1,5 +1,13 @@
-1. En Redash
-Despues de crear un Query simple en redash, guardarlo y en la esquina superior derecha hay 3 puntos, buscar la opción 'Show API Key'
-copiar la celda que dice 'Results in CSV format:'
+En Redash
 
-2. En Google Sheets
+1. Despues de crear un Query simple en redash, guardarlo y en la esquina superior derecha hay 3 puntos, buscar la opción 'Show API Key'
+copiar la celda que dice 'Results in CSV format:'
+2. Se copia lo siguiente: 'https://redash.federate.frubana.com/api/queries/122953/results.csv?api_key=6WFLkDBJTpX1HTY6uxjP0006ncNggfbtFUWgAoZT'
+
+En Google Sheets
+1. En la celda inicial pegar la siguiente función y pasarle como argumento lo que se copió:
+2. =redash_importdata("Results in CSV format:")
+3. Y quedaría: 
+
+vER EJEMPLO EN:
+https://docs.google.com/spreadsheets/d/1YWbd9xfCuBKbuSfbwnJ2K02Nl05q-mecZL_1RcaucL0/edit?usp=sharing
