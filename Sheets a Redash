@@ -1,0 +1,20 @@
+1. En Sheets:
+1. En el Gsheets habilitar la extensión 'RedashSheet'
+2. Compartir el documento (modo edición) con redash@frub-data.iam.gserviceaccount.com
+3. El link del sheet viene así: "https://docs.google.com/spreadsheets/d/1YWbd9xfCuBKbuSfbwnJ2K02Nl05q-mecZL_1RcaucL0/edit#gid=0"
+3.1. Copiar la parte del link que va después de '/d/' hasta el siguiente '/'
+
+2. En Redash:
+1. Crear un nuevo Query
+2. Donde se seleccionan las bases de datos seleccionar Google Spreadsheets
+3. Pegar lo que habiamos pegado y correr la Query
+4. El link de Redash viene así: "https://redash.federate.frubana.com/queries/122799/source"
+5. Copiar la parte del link queson solo números '122799'
+
+Para renombrar esta base:
+
+3. En Redash:
+1. Crear un nuevo Query
+2. Donde se seleccionan las bases de datos seleccionar Query Results
+3. select * from query_122799
+3.1 en el 'from' hay que poner 
