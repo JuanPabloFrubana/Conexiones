@@ -11,7 +11,7 @@
 4. El link de Redash viene así: "https://redash.federate.frubana.com/queries/122799/source"
 5. Copiar la parte del link queson solo números '122799'
 
-Para renombrar esta base:
+Para renombrar esta base y usarla con un from:
 
 3. En Redash:
 1. Crear un nuevo Query
