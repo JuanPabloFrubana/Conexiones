@@ -1,4 +1,4 @@
 # Conexiones
- En este archivo encontrará conexiones entre:
+ En este repo encontrará conexiones entre:
  - De Redash a GoogleSheets
  - De Google Sheets a Redash
