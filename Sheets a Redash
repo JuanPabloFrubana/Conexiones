@@ -17,4 +17,4 @@ Para renombrar esta base y usarla con un from:
 1. Crear un nuevo Query
 2. Donde se seleccionan las bases de datos seleccionar Query Results
 3. select * from query_122799
-3.1 en el 'from' hay que poner 
+3.1 en el 'from' hay que poner 'query_' + el número copiado del link del query anterior 
